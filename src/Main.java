@@ -62,6 +62,15 @@ public class Main {
 
         System.out.println(frog);
 
+        var massOfFirstBoxer = 78.2;
+        var massOfSecondBoxer = 82.7;
+
+        var massOfBothBoxers = massOfFirstBoxer+massOfSecondBoxer;
+        var differenceBetweenBothBoxers = massOfSecondBoxer-massOfFirstBoxer;
+
+        System.out.println("Общая масса двух боксёров состовляет " + massOfBothBoxers + "кг");
+        System.out.println("Разница в весе между двумя боксёрами составляет " + differenceBetweenBothBoxers + "кг");
+
 
 
     }

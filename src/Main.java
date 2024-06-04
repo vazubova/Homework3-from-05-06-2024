@@ -30,15 +30,37 @@ public class Main {
         System.out.println(paper);
 
         var friend = 19;
+
         System.out.println(friend);
 
         var howMuchMoreFriends = 2;
         friend = friend+howMuchMoreFriends;
+
         System.out.println(friend);
 
         var howMuchLess = 7;
         friend = friend-howMuchLess;
+
         System.out.println(friend);
+
+        var frog = 3.5;
+
+        System.out.println(frog);
+
+        var moreFrogs = 10;
+        frog = frog*moreFrogs;
+
+        System.out.println(frog);
+
+        var lessFrogs = 3.5;
+        frog = frog/lessFrogs;
+
+        System.out.println(frog);
+
+        var plusNumber = 4;
+        frog = plusNumber+frog;
+
+        System.out.println(frog);
 
 
 

@@ -71,6 +71,16 @@ public class Main {
         System.out.println("Общая масса двух боксёров состовляет " + massOfBothBoxers + "кг");
         System.out.println("Разница в весе между двумя боксёрами составляет " + differenceBetweenBothBoxers + "кг");
 
+        var firstWeight = 38;
+        var secondWeight = 5;
+        var remainder = firstWeight%secondWeight;
+
+        System.out.println(remainder);
+
+
+
+
+
 
 
     }
